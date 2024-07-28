@@ -2,6 +2,14 @@
     display: none;
 }
 
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .container {
     height: 100vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -46,13 +54,17 @@
 }
 
 .donation h2,
-.donation-plan h2 {
+.donation-plan h2,
+.live-description h2,
+.survive-description h2 {
     color: #121212;
     font-size: 45px;
 }
 
 .donation p,
-.donation-plan p {
+.donation-plan p,
+.live-description p,
+.survive-description p {
     font-size: 20px;
     color: #707070;
 }
@@ -122,6 +134,29 @@
 .education p {
     font-size: 18px;
     color: #707070;
+}
+
+.live,
+.survive {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    padding: 20px 150px;
+}
+
+.live-description,
+.survive-description {
+    padding: 5px 40px 20px 40px;
+    width: calc(100% - 60px);
+    /* border: 2px solid tomato; */
+}
+
+.live-img,
+.survive-img {
+    padding: 55px 40px 20px 40px;
+    height: auto;
+    width: 100%;
+    /* border: 2px solid tomato; */
 }
 
 /* Responsive Design */
