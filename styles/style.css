@@ -33,6 +33,7 @@
     background-color: #FF5959;
     border: none;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .donation {
@@ -74,7 +75,56 @@
 /* Responsive Design */
 
 /* For small devices */
-/* 
+
 @media screen and (max-width:572px) {
-    
-} */
+    .banner {
+        padding: 10px;
+        background-image: url(../images/donation9.jpg);
+        text-align: center;
+    }
+
+    .banner h2 {
+        font-size: 35px;
+    }
+
+    .banner p {
+        font-size: 14px;
+        padding: 0px 50px;
+        color: #121212;
+        font-weight: bold;
+    }
+
+    .donation {
+        padding: 0px 10px;
+    }
+
+    .d-des {
+        text-align: justify;
+    }
+
+    .don-amount {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .don-amount h5 {
+        font-size: 20px;
+        padding: 10px 10px;
+        border-radius: 8px;
+        margin: 5px;
+        width: 40%;
+    }
+}
+
+/* For Medium Devices */
+
+@media screen and (min-width:573px) and (max-width:992px) {
+    .banner {
+        padding: 10px;
+    }
+
+    .donation {
+        padding: 50px 80px;
+    }
+}
