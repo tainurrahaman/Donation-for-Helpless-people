@@ -34,3 +34,47 @@
     border: none;
     cursor: pointer;
 }
+
+.donation {
+    text-align: center;
+    padding: 100px 300px;
+}
+
+.donation h2 {
+    color: #121212;
+    font-size: 45px;
+}
+
+.donation p {
+    font-size: 20px;
+    color: #707070;
+}
+
+.don-amount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.don-amount h5 {
+    background-color: #f5f3f3;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 40px 20px;
+    border-radius: 8px;
+    color: #707070;
+    border: 2px solid #f5f3f3;
+    cursor: pointer;
+}
+
+.don-amount h5:hover {
+    border: 2px solid rgba(2, 173, 246, 0.661);
+}
+
+
+/* Responsive Design */
+
+/* For small devices */
+/* 
+@media screen and (max-width:572px) {
+    
+} */
