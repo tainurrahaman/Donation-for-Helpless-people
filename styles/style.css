@@ -1,3 +1,7 @@
+.hide {
+    display: none;
+}
+
 .container {
     height: 100vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -41,12 +45,14 @@
     padding: 100px 300px;
 }
 
-.donation h2 {
+.donation h2,
+.donation-plan h2 {
     color: #121212;
     font-size: 45px;
 }
 
-.donation p {
+.donation p,
+.donation-plan p {
     font-size: 20px;
     color: #707070;
 }
@@ -71,6 +77,52 @@
     border: 2px solid rgba(2, 173, 246, 0.661);
 }
 
+.donation-plan {
+    text-align: center;
+    padding: 0px 300px;
+}
+
+.plan-container {
+    display: flex;
+    padding: 50px 150px;
+    gap: 20px;
+}
+
+.food {
+    background-color: #eefafb;
+    padding: 50px 25px 30px 25px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.shelter {
+    background-color: #fce6e6;
+    padding: 50px 25px 30px 25px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.education {
+    background-color: #FFF4D6;
+    padding: 50px 25px 30px 25px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.food h4,
+.shelter h4,
+.education h4 {
+    font-size: 22px;
+    font-weight: 400px;
+    color: #121212;
+}
+
+.food p,
+.shelter p,
+.education p {
+    font-size: 18px;
+    color: #707070;
+}
 
 /* Responsive Design */
 
