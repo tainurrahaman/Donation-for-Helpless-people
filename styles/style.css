@@ -1,0 +1,36 @@
+.container {
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.banner {
+    background-image: url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 175px 300px;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.banner p {
+    font-size: 18px;
+    color: #fff;
+    padding: 0px 100px;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 19px;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #FF5959;
+    border: none;
+    cursor: pointer;
+}
