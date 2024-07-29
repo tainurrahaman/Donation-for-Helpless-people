@@ -170,7 +170,6 @@ html {
     background-color: #FFF4D6;
     border-radius: 10px;
     padding: 75px 100px;
-    gap: 0px;
 }
 
 .text {
@@ -183,7 +182,7 @@ html {
 
 .click {
     background-color: #FF5959;
-    padding: 14px 40px;
+    padding: 14px 20px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
