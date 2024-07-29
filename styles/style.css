@@ -273,6 +273,28 @@ html {
         text-align: justify;
     }
 
+    .update {
+        padding: 30px 30px 5px 30px;
+        margin: 10px;
+    }
+
+    .update p {
+        text-align: justify;
+    }
+
+    .contact {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .text {
+        padding: 10px 80px 10px 15px;
+        margin-bottom: 10px;
+    }
+
+    .click {
+        padding: 10px 20px;
+    }
 
     /* Shared text */
 
@@ -338,4 +360,17 @@ html {
         background-position: center;
     }
 
+    .update {
+        margin: 10px 10px 0px 10px;
+        padding: 0px 100px;
+    }
+
+    .contact {
+        margin: 0px 130px 20px 130px;
+        padding: 75px 100px;
+    }
+
+    .text {
+        padding: 15px 90px 15px 10px;
+    }
 }
