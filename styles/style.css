@@ -327,6 +327,18 @@ html {
     .btn {
         font-size: 16px;
     }
+
+    .gratitude {
+        padding: 5px 0px;
+    }
+
+    .gratitude h3 {
+        font-size: 20px;
+    }
+
+    .gratitude p {
+        font-size: 16px;
+    }
 }
 
 /* For Medium Devices */
@@ -390,5 +402,9 @@ html {
 
     .text {
         padding: 15px 90px 15px 10px;
+    }
+
+    .gratitude {
+        padding: 20px 200px;
     }
 }
